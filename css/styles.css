@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;   
+}
+
+body {
+    background-color: lightgray;
+}
+
+.div-utama {
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+
+header {
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+    font-size: 35px;
+}
+
+.navigasi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: darkorange;
+    font-size: 20px;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.navigasi ul li {
+    float: left;
+}
+
+.navigasi ul li a {
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.navigasi li a:hover {
+    background-color: crimson;
+    transition-duration: 1s;
+}
+
+.banner {
+    margin-bottom: 15px;
+}
+
+.banner img {
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+
+.pemesanan {
+    width: 20%;
+    border: 1px solid grey;
+    padding: 6px;
+    float: left;
+}
+
+.pemesanan h1 {
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.pemesanan button a {
+	text-decoration: none;
+	color : white;
+}
+	
+
+.pemesanan button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.menu-content {
+    width: 60%;
+    border: 1px solid grey;
+    padding: 10px;
+    float: left;
+}
+
+.menu-content h1 {
+    background-color: crimson;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.menu-content img {
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+
+.menu-content h6 {
+    padding: 10px;
+    text-align: right;
+    color: gray;
+}
+
+.jadwal-buka {
+    width: 20%;
+    border: 1px solid grey;
+    padding: 6px;
+    float: left;
+}
+
+.jadwal-buka h1 {
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.jadwal-buka img {
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.jadwal-buka h3 {
+    font-size: medium;
+    text-align: center;
+}
+
+.jadwal-buka p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.berita-terbaru {
+    width: 20%;
+    border: 1px solid grey;
+    padding: 6px;
+    float: right;
+}
+
+.berita-terbaru h1 {
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.menu-content button {
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.menu-content button a {
+	text-decoration: none;
+	color: white;
+}
+
+.berita-terbaru {
+    width: 20%;
+    border: 1px solid grey;
+    padding: 6px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.berita-terbaru h1 {
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.berita-terbaru ul {
+    list-style-type: none ;
+}
+
+.berita-terbaru ul li a {
+    color: black;
+    font-size: 15px;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+footer {
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    clear: both;
+}
